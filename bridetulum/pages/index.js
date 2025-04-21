@@ -1,4 +1,8 @@
-export default function Home() {
+// Proyecto: bridestulum.com
+// Estructura base en Next.js + TailwindCSS
+// Objetivo: sitio minimalista, elegante, con foco en novias que planean boda en Tulum
+
+export default function BrideTulum() {
   return (
     <main className="min-h-screen bg-white text-neutral-900 font-inter">
       {/* Hero */}
@@ -41,5 +45,5 @@ export default function Home() {
         © {new Date().getFullYear()} BrideTulum · Tulum Wedding Photographer · Diptych Studio
       </footer>
     </main>
-  );
+  )
 }
